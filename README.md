@@ -1,10 +1,14 @@
 # 📊 Data Visualization Suite: Matplotlib vs. Seaborn vs. Streamlit
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pruebas-graficas-python-m49xqxuggor3ng2qddhr7s.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.13+-4c72b0?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+> 🌐 **Demo en Vivo (Streamlit Cloud):** Puedes interactuar con la aplicación desplegada sin instalar nada directamente en:  
+> **👉 [https://pruebas-graficas-python-m49xqxuggor3ng2qddhr7s.streamlit.app/](https://pruebas-graficas-python-m49xqxuggor3ng2qddhr7s.streamlit.app/)**
 
 Una suite didáctica y comparativa que implementa **5 visualizaciones estadísticas fundamentales y accesibles**. El proyecto permite entender las diferencias arquitectónicas, sintácticas y estéticas entre **Matplotlib** (control granular de bajo nivel) y **Seaborn** (estadística de alto nivel orientada a DataFrames), desplegando todo de forma interactiva a través de una aplicación web construida con **Streamlit**.
 
@@ -12,6 +16,7 @@ Una suite didáctica y comparativa que implementa **5 visualizaciones estadísti
 
 ## 📑 Tabla de Contenidos
 
+- [🌐 Demo en Vivo](#-demo-en-vivo-streamlit-cloud)
 - [🎯 Los 5 Gráficos Seleccionados](#-los-5-gráficos-seleccionados)
 - [⚖️ Tabla Comparativa de Sintaxis](#️-tabla-comparativa-de-sintaxis)
 - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
@@ -124,7 +129,14 @@ jupyter notebook cuaderno_graficos.ipynb
 
 ### 2. Dashboard Interactivo con Streamlit (`app.py`)
 
-Lanza un servidor web local con una interfaz gráfica moderna para interactuar con los gráficos en tiempo real:
+#### ☁️ Acceso Online Inmediato (Sin instalación previa)
+Puedes probar la aplicación directamente en la nube sin necesidad de configurar Python en tu equipo:
+> 🚀 **[Acceder a la Web en Streamlit Cloud](https://pruebas-graficas-python-m49xqxuggor3ng2qddhr7s.streamlit.app/)**
+
+---
+
+#### 💻 Ejecución en Local
+Para lanzar el servidor web local con una interfaz gráfica moderna:
 
 ```bash
 streamlit run app.py

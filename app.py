@@ -57,6 +57,10 @@ paleta_seaborn = st.sidebar.selectbox("Paleta de color (Seaborn):", ["Blues_d", 
 
 mostrar_datos = st.sidebar.checkbox("Mostrar tabla de datos simulados", value=False)
 
+st.sidebar.markdown("---")
+st.sidebar.markdown("🌐 **Web en Streamlit Cloud:**")
+st.sidebar.markdown("[Ver App en la Nube](https://pruebas-graficas-python-m49xqxuggor3ng2qddhr7s.streamlit.app/)")
+
 # Función con caché para generar datos reproducibles
 @st.cache_data
 def generar_datos(n):
